@@ -11,7 +11,7 @@ This application automatically ensures that the Korean IME enters Hangul mode (�
 - Korean IME in 가 mode
 - Korean IME in A mode
 2. When it detects Korean IME in A mode, it sends a simulated keypress of virtual key 0x15, which toggles to 가 mode.
-(Note: On some systems, VK_RMENU (Right Alt) doesn't toggle the mode, but 0x15 does. This key was discovered via experimentation and may be tied to custom keyboard firmware or IME behavior.)
+*(Note: On some systems, VK_RMENU (Right Alt) doesn't toggle the mode, but 0x15 does. This key was discovered via experimentation and may be tied to custom keyboard firmware or IME behavior.)*
 
 ## Setup Instructions
 ### Build the application
